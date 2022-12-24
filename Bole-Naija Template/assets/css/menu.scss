@@ -1,0 +1,372 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+body {
+    color: white;
+
+    .ourPakeg {
+        background-image: url(../images/newsbg.jpg);
+
+        .container {
+            padding-left: 50px;
+            padding-right: 50px;
+
+            .dishes {
+                .dishes_con {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .pln_yam_fish {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding-bottom: 50px;
+                        font-family: 'Pacifico', cursive;
+
+
+                        img {
+                            height: 400px;
+                            width: 50%;
+                            border-top-left-radius: 10px;
+                            border-bottom-left-radius: 10px;
+                        }
+
+                        .pln_yam_fish_text {
+                            color: black;
+                            background-color: white;
+                            height: 350px;
+                            width: 40%;
+                            border: red 2px solid;
+                            border-left: black 0px solid;
+                            border-top-right-radius: 10px;
+                            border-bottom-right-radius: 10px;
+
+                            p {
+                                font-size: 35px;
+                                font-weight: 800;
+                                text-align: center;
+                                line-height: 35px;
+                                padding-top: 10px;
+
+                                button {
+                                    margin-top: 20px;
+                                    font-size: 14px;
+                                    font-weight: normal;
+                                    font-family: 'roboto', sans-serif;
+                                    background-color: red;
+                                    color: white;
+                                    height: 40px;
+                                    width: 140px;
+                                    border: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                }
+
+                                button:hover {
+                                    height: 45px;
+                                    width: 145px;
+                                    background-color: rgb(210, 1, 1);
+                                }
+                            }
+                        }
+
+                        @media screen and(max-width: 1000px) {
+                            display: block;
+
+                            img {
+                                height: 200px;
+                                width: 100%;
+                                border-top-left-radius: 10px;
+                                border-top-right-radius: 10px;
+                                border-bottom-left-radius: 0px;
+                            }
+
+                            .pln_yam_fish_text {
+                                color: black;
+                                background-color: white;
+                                height: 250px;
+                                width: 300px;
+                                border: red 2px solid;
+                                border-top: black 0px solid;
+                                border-bottom-left-radius: 10px;
+                                border-bottom-right-radius: 10px;
+                                border-top-right-radius: 0px;
+                                margin-left: 25px;
+                                margin-right: 25px;
+
+                                p {
+                                    font-size: 25px;
+                                    font-weight: 800;
+                                    text-align: center;
+                                    line-height: 25px;
+                                    padding-top: 10px;
+
+                                    button {
+                                        margin-top: 20px;
+                                        font-size: 14px;
+                                        font-weight: normal;
+                                        font-family: 'roboto', sans-serif;
+                                        background-color: red;
+                                        color: white;
+                                        height: 40px;
+                                        width: 140px;
+                                        border: none;
+                                        border-radius: 5px;
+                                        text-align: center;
+                                    }
+
+                                    button:hover {
+                                        height: 45px;
+                                        width: 145px;
+                                        background-color: rgb(210, 1, 1);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .pln_ptt_yam_crk {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-bottom: 50px;
+                    font-family: 'Pacifico', cursive;
+
+
+                    img {
+                        height: 400px;
+                        width: 40%;
+                        border-top-right-radius: 10px;
+                        border-bottom-right-radius: 10px;
+                    }
+
+                    .pln_ptt_yam_crk_text {
+                        color: black;
+                        background-color: white;
+                        height: 350px;
+                        width: 50%;
+                        border: red 2px solid;
+                        border-right: black 0px solid;
+                        border-top-left-radius: 10px;
+                        border-bottom-left-radius: 10px;
+
+                        p {
+                            font-size: 35px;
+                            font-weight: 800;
+                            text-align: center;
+                            line-height: 35px;
+                            padding-top: 10px;
+
+                            button {
+                                margin-top: 20px;
+                                font-size: 14px;
+                                font-weight: normal;
+                                font-family: 'roboto', sans-serif;
+                                background-color: red;
+                                color: white;
+                                height: 40px;
+                                width: 140px;
+                                border: none;
+                                border-radius: 5px;
+                                text-align: center;
+                            }
+
+                            button:hover {
+                                height: 45px;
+                                width: 145px;
+                                background-color: rgb(210, 1, 1);
+                            }
+                        }
+                    }
+
+                    @media screen and(max-width:1000px) {
+                        display: none;
+                    }
+                }
+
+                .pln_yam_ptt_otf {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-bottom: 50px;
+                    font-family: 'Pacifico', cursive;
+
+
+                    img {
+                        height: 400px;
+                        width: 50%;
+                        border-top-left-radius: 10px;
+                        border-bottom-left-radius: 10px;
+                    }
+
+                    .pln_yam_ptt_otf_text {
+                        color: black;
+                        background-color: white;
+                        height: 350px;
+                        width: 40%;
+                        border: red 2px solid;
+                        border-left: black 0px solid;
+                        border-top-right-radius: 10px;
+                        border-bottom-right-radius: 10px;
+
+                        p {
+                            font-size: 35px;
+                            font-weight: 800;
+                            text-align: center;
+                            line-height: 35px;
+                            padding-top: 10px;
+
+                            button {
+                                margin-top: 20px;
+                                font-size: 14px;
+                                font-weight: normal;
+                                font-family: 'roboto', sans-serif;
+                                background-color: red;
+                                color: white;
+                                height: 40px;
+                                width: 140px;
+                                border: none;
+                                border-radius: 5px;
+                                text-align: center;
+                            }
+
+                            button:hover {
+                                height: 45px;
+                                width: 145px;
+                                background-color: rgb(210, 1, 1);
+                            }
+                        }
+                    }
+                    @media screen and(max-width: 1000px) {
+                        display: block;
+
+                        img {
+                            height: 200px;
+                            width: 100%;
+                            border-top-left-radius: 10px;
+                            border-top-right-radius: 10px;
+                            border-bottom-left-radius: 0px;
+                        }
+
+                        .pln_yam_ptt_otf_text {
+                            color: black;
+                            background-color: white;
+                            height: 250px;
+                            width: 300px;
+                            border: red 2px solid;
+                            border-top: black 0px solid;
+                            border-bottom-left-radius: 10px;
+                            border-bottom-right-radius: 10px;
+                            border-top-right-radius: 0px;
+                            margin-left: 25px;
+                            margin-right: 25px;
+
+                            p {
+                                font-size: 25px;
+                                font-weight: 800;
+                                text-align: center;
+                                line-height: 25px;
+                                padding-top: 10px;
+
+                                button {
+                                    margin-top: 20px;
+                                    font-size: 14px;
+                                    font-weight: normal;
+                                    font-family: 'roboto', sans-serif;
+                                    background-color: red;
+                                    color: white;
+                                    height: 40px;
+                                    width: 140px;
+                                    border: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                }
+
+                                button:hover {
+                                    height: 45px;
+                                    width: 145px;
+                                    background-color: rgb(210, 1, 1);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .pln_ptt_yam_crr {
+                    display: none;
+
+                    @media screen and(max-width: 1000px) {
+                        padding-bottom: 50px;
+                        display: block;
+                        font-family: 'Pacifico', cursive;
+
+                        img {
+                            height: 200px;
+                            width: 100%;
+                            border-top-left-radius: 10px;
+                            border-top-right-radius: 10px;
+                            border-bottom-left-radius: 0px;
+                        }
+
+                        .pln_ptt_yam_crr_text {
+                            color: black;
+                            background-color: white;
+                            height: 250px;
+                            width: 300px;
+                            border: red 2px solid;
+                            border-top: black 0px solid;
+                            border-bottom-left-radius: 10px;
+                            border-bottom-right-radius: 10px;
+                            border-top-right-radius: 0px;
+                            margin-left: 35px;
+                            margin-right: 25px;
+
+                            p {
+                                font-size: 25px;
+                                font-weight: 800;
+                                text-align: center;
+                                line-height: 25px;
+                                padding-top: 10px;
+
+                                button {
+                                    margin-top: 20px;
+                                    font-size: 14px;
+                                    font-weight: normal;
+                                    font-family: 'roboto', sans-serif;
+                                    background-color: red;
+                                    color: white;
+                                    height: 40px;
+                                    width: 140px;
+                                    border: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                }
+
+                                button:hover {
+                                    height: 45px;
+                                    width: 145px;
+                                    background-color: rgb(210, 1, 1);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    h4 {
+        padding-top: 20px;
+    }
+
+    .head_title {
+        @media (min-width:480px) and (max-width:1000px) {
+            margin-top: 30px;
+        }
+    }
+}

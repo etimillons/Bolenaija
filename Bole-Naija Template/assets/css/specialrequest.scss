@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+.special_request{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/abtbg.jpg);
+    background-position-x: right;
+    .col-md-4{
+        .single_widget{
+            padding-top: 140px;
+            h3{
+                padding-bottom: 20px;
+            }
+            .form{
+                form{
+                    .form-group{
+                        padding-left: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
