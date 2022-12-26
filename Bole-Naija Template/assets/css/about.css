@@ -5,7 +5,7 @@
           box-sizing: 0px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   body {
     background-color: white !important;
     width: 100%;
@@ -43,7 +43,7 @@ body .slider-bgc .slider {
   background-position-y: bottom;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   body .slider-bgc .slider {
     overflow: hidden;
     display: -webkit-box;
@@ -59,7 +59,7 @@ body .slider-bgc .slider {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   body .slider-bgc .slider .slider-inner {
     width: 80%;
   }
@@ -125,7 +125,7 @@ body .slider-bgc .slider .slider-inner .about-text {
           align-items: center;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   body .slider-bgc .slider .slider-inner .about-text {
     display: -ms-grid;
     display: grid;
@@ -150,7 +150,7 @@ body .slider-bgc .slider .slider-inner .about-text .ourmission {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   body .slider-bgc .slider .slider-inner .about-text .ourmission {
     width: 100%;
   }
@@ -216,4 +216,3 @@ body .slider-bgc .slider .slider-inner .times_bgc .times {
   padding: 30px;
   font-weight: 600;
 }
-/*# sourceMappingURL=about.css.map */

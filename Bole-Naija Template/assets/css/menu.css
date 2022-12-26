@@ -46,7 +46,7 @@ body .ourPakeg .container .dishes .dishes_con .pln_yam_fish {
 
 body .ourPakeg .container .dishes .dishes_con .pln_yam_fish img {
   height: 400px;
-  width: 50%;
+  width: 60%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -55,7 +55,7 @@ body .ourPakeg .container .dishes .dishes_con .pln_yam_fish .pln_yam_fish_text {
   color: black;
   background-color: white;
   height: 350px;
-  width: 40%;
+  width: 45%;
   border: red 2px solid;
   border-left: black 0px solid;
   border-top-right-radius: 10px;
@@ -90,7 +90,7 @@ body .ourPakeg .container .dishes .dishes_con .pln_yam_fish .pln_yam_fish_text p
   background-color: #d20101;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   body .ourPakeg .container .dishes .dishes_con .pln_yam_fish {
     display: block;
   }
@@ -122,7 +122,7 @@ body .ourPakeg .container .dishes .dishes_con .pln_yam_fish .pln_yam_fish_text p
     padding-top: 10px;
   }
   body .ourPakeg .container .dishes .dishes_con .pln_yam_fish .pln_yam_fish_text p button {
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 14px;
     font-weight: normal;
     font-family: 'roboto', sans-serif;
@@ -152,12 +152,12 @@ body .ourPakeg .container .dishes .pln_ptt_yam_crk {
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 50px;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico',cursive;
 }
 
 body .ourPakeg .container .dishes .pln_ptt_yam_crk img {
   height: 400px;
-  width: 40%;
+  width: 50%;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -166,7 +166,7 @@ body .ourPakeg .container .dishes .pln_ptt_yam_crk .pln_ptt_yam_crk_text {
   color: black;
   background-color: white;
   height: 350px;
-  width: 50%;
+  width: 40%;
   border: red 2px solid;
   border-right: black 0px solid;
   border-top-left-radius: 10px;
@@ -201,7 +201,7 @@ body .ourPakeg .container .dishes .pln_ptt_yam_crk .pln_ptt_yam_crk_text p butto
   background-color: #d20101;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   body .ourPakeg .container .dishes .pln_ptt_yam_crk {
     display: none;
   }
@@ -218,7 +218,7 @@ body .ourPakeg .container .dishes .pln_yam_ptt_otf {
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 50px;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico',cursive;
 }
 
 body .ourPakeg .container .dishes .pln_yam_ptt_otf img {
@@ -267,7 +267,7 @@ body .ourPakeg .container .dishes .pln_yam_ptt_otf .pln_yam_ptt_otf_text p butto
   background-color: #d20101;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   body .ourPakeg .container .dishes .pln_yam_ptt_otf {
     display: block;
   }
@@ -281,7 +281,7 @@ body .ourPakeg .container .dishes .pln_yam_ptt_otf .pln_yam_ptt_otf_text p butto
   body .ourPakeg .container .dishes .pln_yam_ptt_otf .pln_yam_ptt_otf_text {
     color: black;
     background-color: white;
-    height: 250px;
+    height: 300px;
     width: 300px;
     border: red 2px solid;
     border-top: black 0px solid;
@@ -299,7 +299,7 @@ body .ourPakeg .container .dishes .pln_yam_ptt_otf .pln_yam_ptt_otf_text p butto
     padding-top: 10px;
   }
   body .ourPakeg .container .dishes .pln_yam_ptt_otf .pln_yam_ptt_otf_text p button {
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 14px;
     font-weight: normal;
     font-family: 'roboto', sans-serif;
@@ -322,7 +322,7 @@ body .ourPakeg .container .dishes .pln_ptt_yam_crr {
   display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   body .ourPakeg .container .dishes .pln_ptt_yam_crr {
     padding-bottom: 50px;
     display: block;
@@ -330,7 +330,6 @@ body .ourPakeg .container .dishes .pln_ptt_yam_crr {
   }
   body .ourPakeg .container .dishes .pln_ptt_yam_crr img {
     height: 200px;
-    width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0px;
@@ -338,7 +337,7 @@ body .ourPakeg .container .dishes .pln_ptt_yam_crr {
   body .ourPakeg .container .dishes .pln_ptt_yam_crr .pln_ptt_yam_crr_text {
     color: black;
     background-color: white;
-    height: 250px;
+    height: 300px;
     width: 300px;
     border: red 2px solid;
     border-top: black 0px solid;
@@ -356,7 +355,7 @@ body .ourPakeg .container .dishes .pln_ptt_yam_crr {
     padding-top: 10px;
   }
   body .ourPakeg .container .dishes .pln_ptt_yam_crr .pln_ptt_yam_crr_text p button {
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 14px;
     font-weight: normal;
     font-family: 'roboto', sans-serif;
@@ -384,4 +383,3 @@ body h4 {
     margin-top: 30px;
   }
 }
-/*# sourceMappingURL=menu.css.map */
