@@ -211,8 +211,8 @@ body .slider-bgc .slider .slider-inner .times_bgc .times {
           box-shadow: black 2px 2px 10px 0px;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-family: 'Pacifico', cursive;
   text-align: center;
   padding: 30px;
   font-weight: 600;
+  font-family: 'roboto', sans-serif;
 }
